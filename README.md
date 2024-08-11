@@ -1,9 +1,13 @@
+## Disclaimer ⚠️
+This script is intended for educational and ethical uses only. The author is not responsible for any illegal or unethical activities that may arise from the use of this script. Use it responsibly and ensure you have proper authorization to perform email validation.
+
 # Spotify Email Validation Script 📧
 
 This Python script helps you verify the validity of email addresses by checking them against a specific endpoint. It uses proxies to handle requests and can process multiple emails concurrently for efficiency.
+ 
 
-## Features 🚀
-
+## Features 🚀 
+ 
 - **Extracts Emails:** Reads email addresses from a specified text file. 📄
 - **Validates Emails:** Checks each email address to determine if it is already registered on a particular service. ✅
 - **Proxies Support:** Uses a rotating list of proxies to make requests, helping to manage rate limits and avoid IP bans. 🌐
@@ -21,4 +25,5 @@ You can install these packages using the following command:
 
 ```bash
 pip install requests colorama
+ 
  
